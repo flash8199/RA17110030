@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>  
+<!DOCTYPE books [
+<!ELEMENT books (book)*>
+<!ELEMENT book (Title, Author, Genre, Copyright, Edition, Isbn, Publisher, Price)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Copyright (#PCDATA)>
+<!ELEMENT Edition (#PCDATA)>
+<!ELEMENT Isbn (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT Price (#PCDATA)> 
+]>
+
+<books> 
+	<book>
+		<title>  A Fine Balance </title>
+		<author> Rohinton Mistry </author>
+		<genre> Thriller </genre>
+		<copyright> 1990 </copyright>
+		<edition> First </edition>
+		<isbn> 978-0446201078 </isbn>
+		<publisher> D.S.F </publisher>
+		<price> 100000 </price>
+ 	</book>
+ 	<book>
+		<title> The Interpreter Of Maladies </title>
+		<author>  Jhumpa Lahiri </author>
+		<genre> Education </genre>
+		<copyright> 2021</copyright>
+		<edition> First </edition>
+		<isbn> 978-0596044620 </isbn>
+		<publisher> Hailey </publisher>
+		<price> 25000 </price>
+	</book>
+	<book>
+		<title> A Suitable Boy </title>
+		<author> Vikram Seth </author>
+		<genre> Sci-fi </genre>
+		<copyright> 2000 </copyright>
+		<edition> First </edition>
+		<isbn> 978-04121259604 </isbn>
+		<publisher> Vineeth </publisher>
+		<price> 10 </price>
+ 	</book>
+ 	<book>
+		<title> The Glass Palace </title>
+		<author> Amitav Ghosh </author>
+		<genre> Humour </genre>
+		<copyright> 2002 </copyright>
+		<edition> First </edition>
+		<isbn> 978-81121259600;</isbn>
+		<publisher> Dharma Publications </publisher>
+		<price> 3000 </price>
+ 	</book>
+ 	<book>
+		<title> The Inheritance of Loss</title>
+		<author> Kiran Desai </author>
+		<genre> Mystery </genre>
+		<copyright> 2012 </copyright>
+		<edition> First </edition>
+		<isbn> 978-04421259789 </isbn>
+		<publisher>Vijayendraa</publisher>
+		<price> 1000 </price>
+ 	</book>
+</books>
